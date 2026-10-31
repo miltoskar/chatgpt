@@ -1,24 +1,26 @@
-# BAIRA — Public plugin submission readiness
+# BAIRA GPT — public plugin submission checklist
 
-The GitHub documentation is public. The ChatGPT BAIRA plugin remains private until review and publication.
+The public identity is **BAIRA GPT** (`baira-gpt`). The existing private **BAIRA** (`baira`) plugin is separate and must remain unchanged.
 
-## Completed
-- Public description and scope grounded in existing BAIRA functionality.
-- Public MIT license notice for BAIRA-covered material.
-- Public support instructions and release notes.
-- Current privately installed beta source and tests remain untouched.
+## Prepared and checked
 
-## Before public submission
-- Verify the developer/publisher identity with the submission portal.
-- Decide explicitly whether separately licensed Evidence Research material may be redistributed in a public plugin, or exclude that material from the public distribution while preserving relevant functional honesty.
-- Publish and verify a privacy policy reflecting actual data flow, collection, retention, connected services, and user controls.
-- Publish and verify terms of service reflecting actual intended use and legal commitments.
-- Provide all four accepted listing URLs (website, support, privacy policy, terms).
-- Verify a suitable public-listing icon asset and listing description.
-- Build a separate public submission ZIP and run validation against that exact copy.
-- Complete applicable portal scans and developer legal/policy attestations.
-- Submit for review, obtain approval, and only then publish.
+- Distinct public package manifest, icons and scientific beta listing.
+- GitHub project and support pages in this `BAIRA GPT/` folder.
+- Separate MIT-covered public package; all 13 private Evidence Research files excluded.
+- Nine skills. Local clean-extraction regression: 376/376 passes.
+- Public review prompts and release notes in package metadata.
+- Private BAIRA repository, installed plugin and separate Evidence Research skill untouched.
 
-**No warranties of model validity:** numerical fit, source-search success, and passing tests do not establish the behavior of an unmeasured physical system.
+## Required before public submission
 
-Do not disclose private source, research inputs or authentication material to satisfy submission requirements.
+1. Verify the publisher's individual or business identity through OpenAI's developer settings.
+2. Review and approve the actual data-handling statements and publish a final privacy policy, rather than treating the draft as approved.
+3. Review and approve final terms of service.
+4. Check public website, support, privacy and terms URLs for anonymous HTTPS access.
+5. Upload the `baira-gpt` candidate ZIP in the ChatGPT Plugins developer submission portal. Resolve metadata and security scan issues.
+6. Complete any required developer legal and policy attestations personally.
+7. Submit for review. After approval, separately publish the approved version.
+
+**GitHub hosting is not equivalent to ChatGPT plugin publication.** Neither this README nor the package has passed OpenAI's separate review process.
+
+Source documentation and user-facing experimental claims must remain distinct. Locally passing tests are not experimental validation.
