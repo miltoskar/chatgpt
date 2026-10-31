@@ -1,34 +1,33 @@
-# BAIRA — Evidence-first Physics AI
+# BAIRA GPT — Evidence-first Physics AI
 
 **Developer:** Miltiadis Karazoupis  
-**Release channel:** Scientific beta  
-**ChatGPT plugin:** [BAIRA](https://chatgpt.com/plugins/plugins_6adf205d376c8191a0c22962fd0d15e0) (currently private; public submission is not yet approved).
+**Public plugin name:** BAIRA GPT  
+**Package identifier:** `baira-gpt`  
+**Release channel:** scientific beta, public submission candidate  
+**Software license:** MIT (BAIRA-covered source).
 
-BAIRA is an empirical-first scientific research assistant for physics investigation, numerical experimentation, bounded Monte Carlo simulation, nonlinear/stochastic heuristics, scientific provenance checks, and interactive scientific reporting.
+BAIRA GPT is a scientific research assistant designed to investigate real physical systems using evidence-first models, missing-variable identification, provenance-aware research, bounded simulations, Monte Carlo experimentation, and interactive scientific reporting.
 
-## Core scientific policy
+## Core scientific method
 
-For a real physical system, BAIRA should first identify relevant processes, environmental conditions, measured parameters, and uncertainty. It should seek independently sourced measurements and condition-matched empirical models before falling back to idealized textbook laws. Missing values must be disclosed, not fabricated. Synthetic data and AI-generated scientific results are never labeled as observations.
+BAIRA GPT first identifies the relevant physical processes, real operating conditions and missing variables. It searches available primary measurements through authorized ChatGPT tools, tests whether observations support the proposed model and reports uncertainty. A measured constitutive response takes priority over a classroom idealization when the data cover the actual regime. When suitable evidence is unavailable, idealized formulas may be used as **explicitly labeled fallbacks**, not as observed physical truth.
 
-The user must independently verify all calculations, cited sources, measurements, model assumptions, and conclusions. Passing software tests does not establish experimental truth.
+Simulations, synthetic inputs, hypotheses and inferred quantities must never be represented as independently measured observations. Outputs are **AI-generated scientific results** and require independent checking.
 
-## Capabilities and limits
+## Implemented workflows and limits
 
-- Evidence-first scientific investigation and source-provenance checks.
-- Simulation and seeded Monte Carlo within supported implemented regimes.
-- Advanced heuristic hypothesis generation and proposed discriminating experiments.
-- Missing-variable inventory and measured-response prioritization where implemented.
-- Standalone HTML research dashboards, text, JSON, PDF, and reproducibility exports when file execution is available.
-- Recovery and integrity checks for supported local workflows.
+The package contains reusable ChatGPT skills and local Python code for defined simulation regimes, offline evidence-manifest verification, environmental audits, condition-matched model assessment, Monte Carlo, diagnostic checks and structured exports. Where an authorized ChatGPT runtime supplies file generation, BAIRA GPT can produce self-contained interactive HTML reports, plain text, PDF and JSON. Interactive replay uses recorded states; it does not simulate new physics within the browser.
 
-**Limits:** Plugin installation does not confer a Python runtime, continuous sensing, independent experimental verification, or autonomous access to arbitrary tools. HTML export in ordinary ChatGPT requires suitable file-generation capabilities. Multi-agent SDK execution requires its own supported backend. No universal calibrated physical solver is claimed.
+A plugin skill does not automatically grant Python, web browsing, persistent agents, external sensing or an independent server. It is **not** a universal physical solver or a substitute for experiment.
 
-## Public availability
+## Independent public identity
 
-This GitHub page is public documentation. It does **not** mean that the ChatGPT plugin has been reviewed, approved, or publicly listed. The current private build remains private pending the separate ChatGPT submission process.
+This project is named **BAIRA GPT** (`baira-gpt`) and is **separate** from the existing private **BAIRA** (`baira`) plugin. The private plugin and private BAIRA GitHub repository are not changed.
 
-## License and third-party components
+The publicly redistributable package excludes the separately copyrighted Evidence Research skill. It retains a distinct MIT-covered evidence audit and public source-discovery guidance. No license for the separate protected component is implied.
 
-BAIRA MIT-covered software is © 2026 Miltiadis Karazoupis. See [LICENSE](LICENSE) for the full MIT terms. Separately licensed Evidence Research content is **not** relicensed here and is **not** distributed from this public documentation directory. This repository's root license is separate from this BAIRA directory's license.
+## Distribution status
 
-[Support and responsible disclosure](SUPPORT.md) · [Release notes](RELEASE_NOTES.md) · [Publication readiness](PUBLICATION_CHECKLIST.md)
+This repository folder contains the public project documentation, but **the ChatGPT plugin has not yet been submitted for review, approved or listed publicly**. Read [submission status](PUBLICATION_CHECKLIST.md) for verified next steps. This page does not claim a public install link.
+
+[Support](SUPPORT.md) · [Release notes](RELEASE_NOTES.md) · [BAIRA GPT MIT License](LICENSE) · [Privacy policy draft](PRIVACY_POLICY_DRAFT.md) · [Terms draft](TERMS_DRAFT.md)
