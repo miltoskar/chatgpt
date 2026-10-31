@@ -1,15 +1,11 @@
-# BAIRA scientific beta — public documentation notes
+# BAIRA GPT — initial public scientific beta candidate
 
-Current private development baseline: **3.1.0-beta.8**.
+**Package identity:** `baira-gpt` (separate from private `baira`)  
+**Version:** `3.1.0-beta.8`  
+**Status:** Locally validated package, **not submitted**, **not approved**, **not publicly published**.
 
-- Empirical-first model-selection policy extended across physical domains.
-- Inventory of missing environmental variables and measurable conditions.
-- Condition-matched response assessment and explicitly labeled idealized fallback.
-- Simulations, Monte Carlo, bounded heuristics, evidence checks, and source-integrity recovery.
-- Interactive standalone HTML dashboard and plain-text companion when the host can generate files.
-- Distinct labels for observations, simulations, synthetic inputs, and AI-generated scientific results.
-- Mandatory user-side scientific verification guidance.
+Implemented research workflow: missing-variable identification, evidence-first physical modeling, conditional idealized fallbacks, supported 3D/4D numerical simulation workflows, bounded Monte Carlo and heuristics, source integrity checks, and interactive research exports when file tools are available.
 
-Local prerelease suite reported **401 passing tests**. This does not imply independent physical validation or successful public-directory review.
+The public candidate excludes the separate all-rights-reserved Evidence Research skill, while retaining the MIT-covered BAIRA evidence audit and host-mediated primary-source search instructions. Public distribution does not touch the installed private BAIRA plugin.
 
-**Status:** This page documents a private beta being prepared for public review. No public ChatGPT listing is claimed.
+**Local verification of this candidate:** 29 core and 347 research/integration tests passed, no skips. These checks do not independently validate physical conclusions and do not prove behavior in all ChatGPT hosts.
